@@ -11,5 +11,9 @@
     "url": "\u0016https://github.com/tempesttswinson/weatherApp"
   },
   "author": "Tempestt Swinson",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.28"
+  }
 }
