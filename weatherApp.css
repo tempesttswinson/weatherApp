@@ -12,3 +12,15 @@ div{
 	font-family: 'Bad Script', cursive;
 	font-size: 25px;
 }
+button{
+	background-color: #ffc107;
+}
+.jumbotron{
+	width:750px;
+	height: 550px;
+	background-color: #e83e8c;
+	opacity: 87%;
+}
+.overall_div{
+	padding: 150px;
+}
