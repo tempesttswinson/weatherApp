@@ -1,4 +1,7 @@
 
+function convert(num){
+	return  Math.floor((num -273) * (9/5) +32);
+}
 
 $('#submit').click(() =>{
 
@@ -13,13 +16,16 @@ $('#submit').click(() =>{
 
 	$.get(`https://api.openweathermap.org/data/2.5/weather?zip=${zip}&appid=678ba9df227448b5ef0a9f4ff586b675`, ((data)=>{
 
-		var weather = data;
-
 		if(zip !== ''){
-		var display_weather = $('#display_weather');
-		console.log(data);
-		display_weather.text(weather.main.temp);
-	}
+
+			var display_weather = $('#display_weather');
+			console.log(data);
+			$('#city').text(data.name);
+			display_weather.text(convert(data.main.temp)+" F");
+			$('#clouds').text(data.weather[0].description);
+		}else{
+			display_weather.text("Enter Zip Code");
+		}
 
 	}))
 });

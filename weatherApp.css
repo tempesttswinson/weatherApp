@@ -1,0 +1,17 @@
+/*html{
+	background-image: url(images/angela-compagnone-XSUvsYl_LrE-unsplash.jpg);
+	background-size: 1475px;
+}*/
+.header{
+	height: 1575px;
+	background-image: url(images/angela-compagnone-XSUvsYl_LrE-unsplash.jpg);
+	// background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+h1{
+	font-family: 'Merienda', cursive;
+}
+div{
+	font-family: 'Bad Script', cursive;
+}
