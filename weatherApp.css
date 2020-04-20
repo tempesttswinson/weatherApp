@@ -19,8 +19,23 @@ button{
 	width:750px;
 	height: 550px;
 	background-color: #e83e8c;
-	opacity: 87%;
+	opacity: 88%;
 }
 .overall_div{
 	padding: 150px;
+}
+.clear{
+	background-image: url(images/sunny.jpg);
+}
+.rain{
+	background-image: url(images/rain.jpg);
+}
+.snow{
+	background-image: url(images/snow.jpg);
+}
+.thunderstorm{
+	background-image: url(images/thunder.jpg);
+}
+.clouds{
+	background-image: url(images/cloudy.jpg);
 }
